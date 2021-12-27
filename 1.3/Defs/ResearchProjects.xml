@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <ResearchProjectDef>
+    <defName>VFEA_AncientTechnolony</defName>
+    <label>Ancient technolony</label>
+    <description>Unlocks Ancient technology, far more reliable and powerful. Envy of many Gliterworlds.</description>
+    <baseCost>12000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>AdvancedFabrication</li>
+      <li>MultiAnalyzer</li>
+      <li>Biosculpting</li>
+      <li>Bioregeneration</li>
+      <li>MolecularAnalysis</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+	<researchViewX>17.00</researchViewX>
+	<researchViewY>2.90</researchViewY>
+  </ResearchProjectDef>
+</Defs>
