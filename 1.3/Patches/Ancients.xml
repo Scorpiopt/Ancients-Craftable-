@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="VFEA_LargeSupplyCrate" or defName="VFEA_AncientBroadcastStation" or defName="VFEA_PipelineJunction" or defName="VFEA_LargeLockedDoor" or defName="VFEA_AncientSupplyCrate" or defName="VFEA_AncientBed" or defName="VFEA_WallLamp" or defName="VFEA_WallLamp_Red" or defName="VFEA_WallLamp_Green" or defName="VFEA_WallLamp_Blue" or defName="VFEA_AncientCryptosleepSuspender" or defName="VFEA_GeneTailoringPod" or defName="VFEA_SuperNaniteInjectorPump" or defName="VFEA_SuperNaniteDialyzer" or defName="VFEA_SuperNaniteCentrifuge" or defName="VFEA_SimulationDrive" or defName="VFEA_GenomeStabilizer" or defName="VFEA_SuperNaniteContainment" or defName="VFEA_GenomeMacrothermometer" or defName="VFEA_StabilisedMucusInducer" or defName="VFEA_NanotechRetractor" or defName="VFEA_NaniteSampler" or defName="VFEA_AncientEducator" or defName="VFEA_AncientFoosballTable" or defName="VFEA_AncientMonitorBank" or defName="VFEA_AncientBrokenDefensiveTurret" or defName="VFEA_AncientBustedTurretPlatform" or defName="VFEA_AncientFuelTank" or defName="VFEA_AncientInputTerminal" or defName="VFEA_AncientTransmitter" or defName="VFEA_AncientMachinery" or defName="VFEA_AncientWaterFilter" or defName="VFEA_AncientComputerDesk" or defName="VFEA_AncientShuttle" or defName="VFEA_AncientVitalsMonitor" or defName="VFEA_AncientCryptosleepSarcophagus" or defName="VFEA_AncientSupplySlingshot" or defName="VFEA_AncientSolarGenerator" or defName="VFEA_AncientChemfuelPoweredGenerator" or defName="VFEA_AncientGeothermalPlant" or defName="VFEA_AncientBattery" or defName="VFEA_AncientBioBatteryTank" or defName="VFEA_AncientHydroponicFarm" or defName="VFEA_AncientCookingStation" or defName="VFEA_AncientWorkshop" or defName="VFEA_Turret_AncientSecurityTurret" or defName="VFEA_Turret_AncientPointDefense" or defName="VFEA_VaultWall" or defName="VFEA_VaultDoor" or defName="VFEA_AncientHeater" or defName="VFEA_AncientCooler"]/designationCategory</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VFEA_LargeSupplyCrate" or defName="VFEA_AncientBroadcastStation" or defName="VFEA_PipelineJunction" or defName="VFEA_LargeLockedDoor" or defName="VFEA_AncientSupplyCrate" or defName="VFEA_AncientBed" or defName="VFEA_WallLamp" or defName="VFEA_WallLamp_Red" or defName="VFEA_WallLamp_Green" or defName="VFEA_WallLamp_Blue" or defName="VFEA_AncientCryptosleepSuspender" or defName="VFEA_GeneTailoringPod" or defName="VFEA_SuperNaniteInjectorPump" or defName="VFEA_SuperNaniteDialyzer" or defName="VFEA_SuperNaniteCentrifuge" or defName="VFEA_SimulationDrive" or defName="VFEA_GenomeStabilizer" or defName="VFEA_SuperNaniteContainment" or defName="VFEA_GenomeMacrothermometer" or defName="VFEA_StabilisedMucusInducer" or defName="VFEA_NanotechRetractor" or defName="VFEA_NaniteSampler" or defName="VFEA_AncientEducator" or defName="VFEA_AncientFoosballTable" or defName="VFEA_AncientMonitorBank" or defName="VFEA_AncientBrokenDefensiveTurret" or defName="VFEA_AncientBustedTurretPlatform" or defName="VFEA_AncientFuelTank" or defName="VFEA_AncientInputTerminal" or defName="VFEA_AncientTransmitter" or defName="VFEA_AncientMachinery" or defName="VFEA_AncientWaterFilter" or defName="VFEA_AncientComputerDesk" or defName="VFEA_AncientShuttle" or defName="VFEA_AncientVitalsMonitor" or defName="VFEA_AncientCryptosleepSarcophagus" or defName="VFEA_AncientSupplySlingshot" or defName="VFEA_AncientSolarGenerator" or defName="VFEA_AncientChemfuelPoweredGenerator" or defName="VFEA_AncientGeothermalPlant" or defName="VFEA_AncientBattery" or defName="VFEA_AncientBioBatteryTank" or defName="VFEA_AncientHydroponicFarm" or defName="VFEA_AncientCookingStation" or defName="VFEA_AncientWorkshop" or defName="VFEA_Turret_AncientSecurityTurret" or defName="VFEA_Turret_AncientPointDefense" or defName="VFEA_VaultWall" or defName="VFEA_VaultDoor" or defName="VFEA_AncientHeater" or defName="VFEA_AncientCooler"]</xpath>
+		<value>
+			<designationCategory>VFEA_AncientsCraftable</designationCategory>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VFEA_LargeSupplyCrate"]</xpath>
+		<value>
+			<costList>
+				<Steel>50</Steel>
+				<Plasteel>2</Plasteel>
+			</costList>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VFEA_AncientBroadcastStation"]</xpath>
+		<value>
+			<costList>
+				<Steel>200</Steel>
+				<ComponentIndustrial>10</ComponentIndustrial>
+			</costList>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VFEA_PipelineJunction"]</xpath>
+		<value>
+			<costList>
+				<Steel>400</Steel>
+				<ComponentIndustrial>10</ComponentIndustrial>
+				<ComponentSpacer>5</ComponentSpacer>
+				<Plasteel>20</Plasteel>
+			</costList>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VFEA_LargeLockedDoor"]</xpath>
+		<value>
+			<costList>
+				<Steel>15</Steel>
+				<ComponentIndustrial>5</ComponentIndustrial>
+				<Uranium>5</Uranium>
+			</costList>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VFEA_AncientSupplyCrate"]</xpath>
+		<value>
+			<costList>
+				<Steel>40</Steel>
+				<ComponentIndustrial>4</ComponentIndustrial>
+			</costList>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="VFEA_LargeSupplyCrate" or defName="VFEA_AncientBroadcastStation" or defName="VFEA_PipelineJunction" or defName="VFEA_LargeLockedDoor" or defName="VFEA_AncientSupplyCrate" or defName="VFEA_AncientBed" or defName="VFEA_WallLamp" or defName="VFEA_GeneTailoringPod" or defName="VFEA_SuperNaniteInjectorPump" or defName="VFEA_SuperNaniteDialyzer" or defName="VFEA_SuperNaniteCentrifuge" or defName="VFEA_SimulationDrive" or defName="VFEA_GenomeStabilizer" or defName="VFEA_SuperNaniteContainment" or defName="VFEA_GenomeMacrothermometer" or defName="VFEA_StabilisedMucusInducer" or defName="VFEA_NanotechRetractor" or defName="VFEA_NaniteSampler" or defName="VFEA_AncientEducator" or defName="VFEA_AncientFoosballTable" or defName="VFEA_AncientMonitorBank" or defName="VFEA_AncientBrokenDefensiveTurret" or defName="VFEA_AncientBustedTurretPlatform" or defName="VFEA_AncientFuelTank" or defName="VFEA_AncientInputTerminal" or defName="VFEA_AncientTransmitter" or defName="VFEA_AncientMachinery" or defName="VFEA_AncientWaterFilter" or defName="VFEA_AncientComputerDesk" or defName="VFEA_AncientShuttle" or defName="VFEA_AncientVitalsMonitor" or defName="VFEA_AncientCryptosleepSarcophagus" or defName="VFEA_AncientSupplySlingshot" or defName="VFEA_AncientSolarGenerator" or defName="VFEA_AncientChemfuelPoweredGenerator" or defName="VFEA_AncientGeothermalPlant" or defName="VFEA_AncientBattery" or defName="VFEA_AncientBioBatteryTank" or defName="VFEA_AncientHydroponicFarm" or defName="VFEA_AncientCookingStation" or defName="VFEA_AncientWorkshop" or defName="VFEA_Turret_AncientSecurityTurret" or defName="VFEA_Turret_AncientPointDefense" or defName="VFEA_VaultWall" or defName="VFEA_VaultDoor" or defName="VFEA_AncientHeater" or defName="VFEA_AncientCooler"]/researchPrerequisites</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VFEA_LargeSupplyCrate" or defName="VFEA_AncientBroadcastStation" or defName="VFEA_PipelineJunction" or defName="VFEA_LargeLockedDoor" or defName="VFEA_AncientSupplyCrate" or defName="VFEA_AncientBed" or defName="VFEA_WallLamp" or defName="VFEA_GeneTailoringPod" or defName="VFEA_SuperNaniteInjectorPump" or defName="VFEA_SuperNaniteDialyzer" or defName="VFEA_SuperNaniteCentrifuge" or defName="VFEA_SimulationDrive" or defName="VFEA_GenomeStabilizer" or defName="VFEA_SuperNaniteContainment" or defName="VFEA_GenomeMacrothermometer" or defName="VFEA_StabilisedMucusInducer" or defName="VFEA_NanotechRetractor" or defName="VFEA_NaniteSampler" or defName="VFEA_AncientEducator" or defName="VFEA_AncientFoosballTable" or defName="VFEA_AncientMonitorBank" or defName="VFEA_AncientBrokenDefensiveTurret" or defName="VFEA_AncientBustedTurretPlatform" or defName="VFEA_AncientFuelTank" or defName="VFEA_AncientInputTerminal" or defName="VFEA_AncientTransmitter" or defName="VFEA_AncientMachinery" or defName="VFEA_AncientWaterFilter" or defName="VFEA_AncientComputerDesk" or defName="VFEA_AncientShuttle" or defName="VFEA_AncientVitalsMonitor" or defName="VFEA_AncientCryptosleepSarcophagus" or defName="VFEA_AncientSupplySlingshot" or defName="VFEA_AncientSolarGenerator" or defName="VFEA_AncientChemfuelPoweredGenerator" or defName="VFEA_AncientGeothermalPlant" or defName="VFEA_AncientBattery" or defName="VFEA_AncientBioBatteryTank" or defName="VFEA_AncientHydroponicFarm" or defName="VFEA_AncientCookingStation" or defName="VFEA_AncientWorkshop" or defName="VFEA_Turret_AncientSecurityTurret" or defName="VFEA_Turret_AncientPointDefense" or defName="VFEA_VaultWall" or defName="VFEA_VaultDoor" or defName="VFEA_AncientHeater" or defName="VFEA_AncientCooler"]</xpath>
+		<value>
+			<researchPrerequisites>
+				<li>VFEA_AncientTechnolony</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FabricationBench"]/recipes</xpath>
+		<value>
+			<li>VFEA_Make_Nanites</li>
+		</value>
+	</Operation>
+</Patch>
